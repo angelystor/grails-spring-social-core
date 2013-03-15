@@ -37,7 +37,7 @@ grails.project.dependency.resolution = {
     grailsRepo "http://grails.org/plugins"
   }
   dependencies {
-    def springSocialVersion = "1.0.2.RELEASE"
+    def springSocialVersion = "1.1.0.M2"
 
     compile("org.springframework.social:spring-social-core:${springSocialVersion}") { transitive = false }
     compile("org.springframework.social:spring-social-web:${springSocialVersion}") { transitive = false }
